@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseURL: 'https://example.com/' # Website URL
+title: Tianyuan's Homepage # Website name
+baseURL: 'https://wuty.me/' # Website URL
 
 ############################
 ## LANGUAGE
@@ -20,6 +20,7 @@ removePathAccents: true
 ############################
 
 module:
+  proxy: https://goproxy.cn
   imports:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
